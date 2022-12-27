@@ -1,0 +1,9 @@
+1.)Try to analyze the logic of how the pattern is built (Manually preferable).
+2.)Try to understand how each and every loop of the pattern works.
+
+3.) How to approach a question :
+a.)number of lines of the whole pattern =number of times the outer 
+					  loop runs.
+b.)Identify for everyline how many columns are present and how many 
+types of elements are present in each column.
+c.)Try to find out what you need to print.
