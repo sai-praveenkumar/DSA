@@ -21,7 +21,7 @@ class Main
 			{
 				System.out.print("*");           //whatever we need to print can be written here
 			}
-			System.out.println();//used to move to next line
+			System.out.println();                //used to move to next line
 		}
 	}
 }
