@@ -5,6 +5,7 @@ n=5 implies
 		***
 		****
 		*****
+		
 
 Code :
 import java.util.*;
