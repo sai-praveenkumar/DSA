@@ -68,3 +68,4 @@ public class Solution {
 //instead of the correct answer :
     9 2    // since the minimum element of the array starts from index 0
     
+Follow up : LeetCode Q.2706
