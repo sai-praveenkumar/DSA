@@ -1,6 +1,5 @@
-package Recursion;
 
-public class CheckSortedArray {
+public class Checksortedarray {
 	public static void main(String[] args) {
 		int[] arr= {2,3,4,6,8,12,15,35,132,21};
 		boolean check=checksorted(arr,0);
