@@ -5,7 +5,7 @@ List                 | Add  | Remove | Get  | Contains | Next | size |  Data Str
 ---------------------|------|--------|------|----------|------|---------------
 ArrayList            | O(1) |  O(n)  | O(1) |   O(n)   | O(1) | O(1) |  Array
 LinkedList           | O(1) |  O(1)  | O(n) |   O(n)   | O(1) | O(n) |  Linked List
-CopyOnWriteArrayList | O(n) |  O(n)  | O(1) |   O(n)   | O(1) |      |  Array
+CopyOnWriteArrayList | O(n) |  O(n)  | O(1) |   O(n)   | O(1) |      |  Array 
 Vector               |       |       |      |          |      | O(1) |
 
 
