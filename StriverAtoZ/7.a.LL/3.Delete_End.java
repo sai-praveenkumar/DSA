@@ -44,3 +44,33 @@
 }
 
 //Problem link : https://www.codingninjas.com/studio/problems/delete-node-of-linked-list_8160463?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
+
+// Folow up Q: Leetcode 237
+
+class Solution {
+    public void deleteNode(ListNode node) {
+        node.val=node.next.val;
+        node.next=node.next.next;
+    }
+}
+
+//Follow up Q : Leetcode 203
+class Solution {
+    public ListNode removeElements(ListNode head, int val) {
+        if(head == null)
+        return null;
+        ListNode dummy=new ListNode(0);
+        dummy.next=head;
+        ListNode move=dummy;
+        while(move.next!=null){
+            if(move.next.val==val){
+                move.next=move.next.next;
+            }
+            else{
+                move=move.next;
+            }
+        }
+        return dummy.next;
+    }
+}
