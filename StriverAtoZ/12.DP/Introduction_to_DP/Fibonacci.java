@@ -7,7 +7,7 @@ public class Fibonacci {
 		System.out.println("The recursive Solution is : "+recfibo(n));;
 		System.out.println("The Memoization Solution is : "+memofibo(n));
 		System.out.println("The Tabulation Solution is : "+tabfibo(n));
-		System.out.println("The Space Optimized solution is : "+spaceoptfibo(n));
+		System.out.println("The Space Optimized solution is : "+spaceoptfibo(n)); 
 	}
 	private static int recfibo(int n) {
 		if (n==1 || n== 0 ) {
