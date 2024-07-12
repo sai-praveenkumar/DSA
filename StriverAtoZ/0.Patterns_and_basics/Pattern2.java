@@ -1,9 +1,12 @@
 // Problem Link : https://www.naukri.com/code360/problems/n-2-forest_6570178?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems&leftPanelTabValue=PROBLEM
 
-// n=3 implies
+// n=5 implies
 //              *
 //              * *
 //              * * *
+//              * * * *
+//              * * * * *
+
 public class Solution {
     public static void nForest(int n) {
         for(int i=1;i<=n;i++){
