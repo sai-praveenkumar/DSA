@@ -18,3 +18,31 @@ class Solution{
         return max_sum;
     }
 }
+
+// Follow up Q : https://www.naukri.com/code360/problems/maximum-of-all-subarrays-of-size-k_1170789?leftPanelTabValue=PROBLEM
+
+import java.util.* ;
+import java.io.*; 
+public class Solution 
+{
+
+    public static ArrayList<Integer> maxOfSubarray(ArrayList<Integer> nums, int n, int k) 
+	{
+        ArrayList<Integer> ans = new ArrayList<>();
+        int left=0,right=k-1;
+        while(right < n){
+            ans.add(findmax(nums,left,right));
+            left++;
+            right++;
+        }
+        return ans;
+    }
+    private static int findmax(ArrayList<Integer> arr, int left,int right){
+        int max=0;
+        for(int i=left;i<=right;i++)  max=Math.max(max,arr.get(i));
+        
+        return max;
+        
+    }
+
+}
